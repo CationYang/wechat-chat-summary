@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local configuration and generated data must never enter the repository
+EXTEND.md
+messages.json
+view.md
+compact.md
+_history.json
+dist/
+_distill_test/
+*.zip
+
+# Real chat exports and distilled notes stay local
+*.md.bak
+chat-export*

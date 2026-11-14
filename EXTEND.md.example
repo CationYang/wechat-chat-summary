@@ -1,0 +1,21 @@
+# Copy this file to EXTEND.md in the installed skill directory.
+# See references/preferences.md for details.
+
+# Obsidian vault root (absolute path)
+vault: <your-vault>
+out_dir: {vault}/微信提炼
+
+# Your own display name in exports; leave empty to keep the raw label
+self_name:
+
+# Default range when no time range and no incremental anchor
+default_range: 7d
+
+# auto | knowledge (干货学习) | decision (工作/项目) | crm (客户跟进)
+default_profile: auto
+
+# Mask phone numbers, emails and ID numbers when sharing notes
+redact: false
+
+# Prefix filenames with YYYY-MM-DD
+date_prefix: true
